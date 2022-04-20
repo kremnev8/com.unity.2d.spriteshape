@@ -275,7 +275,7 @@ namespace UnityEditor.U2D
             EditorGUILayout.Space();
             DrawHeader(Contents.fillLabel);
             EditorGUILayout.PropertyField(m_FillTextureProp, Contents.fillTextureLabel);
-            EditorGUILayout.Slider(m_FillOffsetProp, -4, 1.5f, Contents.fillScaleLabel);
+            EditorGUILayout.Slider(m_FillOffsetProp, -4, 0.5f, Contents.fillScaleLabel);
 
 
             if (m_FillTextureProp.objectReferenceValue != null)
