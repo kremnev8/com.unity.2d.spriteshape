@@ -287,13 +287,13 @@ namespace UnityEngine.U2D
             }
         }
         
-        internal void SetCornerMode(int index, Corner value)
+        public void SetCornerMode(int index, Corner value)
         {
             m_ControlPoints[index].corner = (value != Corner.Disable);
             m_ControlPoints[index].cornerMode = value;
         }
         
-        internal Corner GetCornerMode(int index)
+        public Corner GetCornerMode(int index)
         {
             if (m_ControlPoints[index].cornerMode == Corner.Disable)
             {
