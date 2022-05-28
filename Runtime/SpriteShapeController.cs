@@ -809,7 +809,7 @@ namespace UnityEngine.U2D
             }
         }
 
-        internal void BakeMeshForced()
+        public void BakeMeshForced()
         {
             if (spriteShapeRenderer != null)
             {
